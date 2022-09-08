@@ -9,7 +9,8 @@ List and details, with PokeAPI
 
 ## Objective:
 
-Connect to PokeAPI and request the page with the 20 pokemons. As we click on the name, the relevant informations of the selected pokemon are displayed.
+Connect to PokeAPI and request the page with the 20 pokemons.  
+As we click on the name, the relevant informations of the selected pokemon are displayed.
 
 ## Technologies used:
 
@@ -36,11 +37,11 @@ HttpClient to make an HTTP request via API
 
 ## Installation
 
-'npm install'
-### Modules:
-'npm install primeng'
-'npm install primeicons'
-'ng add ng2-charts'
+'npm install'  
+### Modules:  
+'npm install primeng'  
+'npm install primeicons'  
+'ng add ng2-charts'  
 
 Run the Angular application with 'ng serve'
 
