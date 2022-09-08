@@ -1,0 +1,49 @@
+<p-card *ngIf="currentPokemon">
+  <!-- header -->
+    <ng-template pTemplate="header">
+      <h1>
+        <img src="https://www.pngall.com/wp-content/uploads/4/Pokeball-PNG.png" style="width: 50px;" />&nbsp;&nbsp;{{
+        currentPokemon.name | uppercase }}&nbsp;&nbsp;
+        <span style="font-family: 'monospace'; font-size: small"># {{currentPokemon.id.toString().padStart(4,'0')}}</span>
+      </h1>
+    </ng-template>
+  <!-- content -->
+  <div class="FullDetail">
+    <div>
+      <!-- BIG IMAGE -->
+      <div class="bigPNG">
+        <img [src]="currentPokemon.sprites.other['official-artwork'].front_default" id="BigIMG">
+      </div>
+      <!-- SMALL IMAGES -->
+      <div class="smallPNGs">
+        <img class="smallPNG" [src]="currentPokemon.sprites.front_default">
+        <img class="smallPNG" [src]="currentPokemon.sprites.back_default">
+      </div>
+      <br>
+    </div>
+      <!-- INFOS POKEMON -->
+      <div class="InfosChart">
+          <!-- infos text -->
+          <div class="infosPokemon">
+            <br>
+            <p>Height: {{currentPokemon.height}}</p>
+            <p>Weight: {{currentPokemon.weight}}</p>
+              <h4>Type(s):<span style="font-weight: normal;">&Tab;{{getTypes()}}</span> </h4>
+              <br>
+          </div>
+          <!-- Chart -->
+          <div class="FullChart">
+            <h4>Stat(s):</h4>
+            <div class="pokemonChart">
+              <canvas baseChart [datasets]="radarChartDatasets" [options]="radarChartOptions" [labels]="radarChartLabels"
+                [type]="'radar'">
+              </canvas>
+            </div>
+          </div>
+          <br>
+      </div>
+
+  </div>
+
+
+</p-card>

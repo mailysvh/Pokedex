@@ -1,0 +1,30 @@
+a {
+  text-decoration: none;
+}
+.nav{
+  background-color: hsla(193, 59%, 59%, 1);
+  margin: 0;
+  padding: 10px;
+  border: solid 5px hsla(208, 46%, 51%, 1);
+}
+*{
+  background-color: hsla(225, 21%, 31%, 1);
+}
+
+.logo{
+  background: transparent;
+}
+
+.footer{
+  background-color: hsla(208, 46%, 51%, 1);
+  font-family: monospace;
+  color: white;
+  width: 100%;
+  position:fixed;
+  bottom:0;
+  width:100%;
+  text-align: center;
+  padding-top:10px;
+  margin-top: 50px;
+  height:30px;
+}

@@ -1,0 +1,61 @@
+.bigPNG{
+  width: 100%;
+  // margin-left: 20px;
+  // background-color: burlywood;
+
+}
+
+BigIMG{
+  max-width: 300px;
+}
+
+h1{
+  font-family: 'Impact';
+  padding: 15px;
+}
+
+span, p{
+  font-family: monospace;
+}
+
+.header{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.infosPokemon{
+  text-align: center;
+}
+
+.smallPNGs{
+  border: solid 3px hsla(208, 46%, 51%, 1);
+  background-color: rgb(235,250,255);
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+}
+
+h4{
+  text-align: left;
+  font-family: Impact;
+}
+
+.FullChart{
+  border: solid 3px hsla(208, 46%, 51%, 1);
+  background-color: rgb(235,250,255);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.FullDetail{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color:  gold;
+}
+

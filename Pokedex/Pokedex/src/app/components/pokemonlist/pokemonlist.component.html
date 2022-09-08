@@ -1,0 +1,25 @@
+
+<div class="container">
+  <div class="leftpanel">
+    <h1>Pokemon List:</h1>
+    <ul *ngFor="let pokemon of currentDex.results">
+      <li>
+        <span class="material-icons">catching_pokemon&nbsp;</span><a (click)="selected(pokemon.url)">{{pokemon.name | uppercase}}</a>
+
+      </li>
+    </ul>
+    <br>
+    <div class="myButtons">
+      <button pButton type="button" class="p-button p-button-outlined p-button-secondary p-button-rounded" [disabled]="!currentDex.previous" (click)="goPrevious20()">Previous&nbsp;<i class="pi pi-arrow-left"></i></button> &nbsp;
+        <button pButton type="button" class="p-button p-button-outlined p-button-secondary p-button-rounded" [disabled]="!currentDex.next" (click)="goNext20()">Next&nbsp;<i class="pi pi-arrow-right"></i></button>
+    </div>
+  </div>
+  <div class="rightpanel">
+    <app-pokemondetails [url]="selectedUrl"></app-pokemondetails>
+  </div>
+</div>
+
+
+
+
+
