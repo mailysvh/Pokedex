@@ -1,16 +1,16 @@
-# Pokedex Display App
+# Pokedex App
 
 ## Description:
-**Pokemon Display Application with AngularJS:**
+**Pokemon Showcase Application with AngularJS:**
 
 List and details, with PokeAPI
 
-> This a basic display project for my Angular course.
+> This a basic practice project for my AngularJS course.
 
 ## Objective:
 
 Connect to PokeAPI and request the page with the 20 pokemons.  
-As we click on the name, the relevant informations of the selected pokemon are displayed.
+As we click on the name, the relevant information of the selected pokemon is displayed.
 
 ## Technologies used:
 
