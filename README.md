@@ -1,5 +1,7 @@
 # Pokedex App
 
+![Pokedex Demo Image](PokedexApp.jpg)
+
 ## Description:
 **Pokemon Showcase Application with AngularJS:**
 
