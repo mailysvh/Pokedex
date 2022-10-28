@@ -3,11 +3,11 @@
 ![Pokedex Demo Image](PokedexApp.jpg)
 
 ## Description:
-**Pokemon Showcase Application with AngularJS:**
+**Pokemon Showcase Application with Angular:**
 
 List and details, with PokeAPI
 
-> This a basic practice project for my AngularJS course.
+> This a basic practice project for my Angular course.
 
 ## Objective:
 
@@ -16,7 +16,7 @@ As we click on the name, the relevant information of the selected pokemon is dis
 
 ## Technologies used:
 
-> **Web API, AngularJS, Typescript, HTML, CSS, JS**
+> **Web API, Angular, Typescript, HTML, CSS, JS**
 
 Also:  
 GoogleAPI for fonts  
